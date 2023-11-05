@@ -9,11 +9,13 @@ Gatling 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 
 ## 快速使用
 ```shell
-Gatling -t 192.168.0.1  -m brute -v #检测目标弱口令并验证
-Gatling -f ip.txt  -m alive  #探测列表存活
-Gatling -f ip.txt  -m portscan #检测列表中开放的端口
-Gatling -f ip.txt  -m servicescan  #检测列表中的服务
-Gatling -f ip.txt  -m brute -v   #检测列表中弱口令并验证
+Gatling -t 192.168.0.1  -m brute -v # 检测目标弱口令并验证
+Gatling -f ip.txt  -m alive  # 探测列表存活
+Gatling -f ip.txt  -m portscan # 检测列表中开放的端口
+Gatling -f ip.txt  -m servicescan  # 检测列表中的服务
+Gatling -f ip.txt  -m brute -prefix huawei,h3c  -v # 根据内置模版生成更多口令并验证弱口令
+Gatling -f ip.txt  -m brute -v  -o result.xlsx # 检测列表中弱口令并验证结果保存为result.xlsx
+
 ```
    
 ## 命令参数
