@@ -1,5 +1,5 @@
 # Gatling
-Gatling 是一款基于golang开发的综合漏洞扫描工具
+Gatling 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、弱口令检测.
 
 
 
