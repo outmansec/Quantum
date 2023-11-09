@@ -10,7 +10,9 @@ Gatling 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 本人拥有对此工具的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本工具进行任何攻击活动，不得以任何方式将其用于商业目的.   
 
 ## 快速使用
+
 <img width="1580" alt="aa" src="https://github.com/outmansec/Gatling/assets/61048948/5416b114-6bc3-4ac5-8e06-a99d60b4266b">
+
 ```shell
 Gatling -t 192.168.0.1  -m brute -v # 检测目标弱口令并验证
 Gatling -f ip.txt  -m alive  # 探测列表存活
