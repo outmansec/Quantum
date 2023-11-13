@@ -1,5 +1,5 @@
-# Gatling
-Gatling 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、弱口令检测.
+# Quantum
+Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、弱口令检测.
 ## 免责声明
 该工具仅用于安全自查检测.
 
@@ -14,12 +14,12 @@ Gatling 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 <img width="1580" alt="aa" src="https://github.com/outmansec/Gatling/assets/61048948/5416b114-6bc3-4ac5-8e06-a99d60b4266b">
 
 ```shell
-Gatling -t 192.168.0.1  -m brute -v -log # 检测目标弱口令并验证结果保存日志
-Gatling -f ip.txt  -m alive  # 探测列表存活
-Gatling -f ip.txt  -m portscan # 检测列表中开放的端口
-Gatling -f ip.txt  -m servicescan  # 检测列表中的服务
-Gatling -f ip.txt  -m brute -prefix huawei,h3c  -v # 根据内置模版生成更多口令并验证弱口令
-Gatling -f ip.txt  -m brute -v  -o result.xlsx # 检测列表中弱口令并验证结果保存为result.xlsx
+Quantum -t 192.168.0.1  -m brute -v -log # 检测目标弱口令并验证结果保存日志
+Quantum -f ip.txt  -m alive  # 探测列表存活
+Quantum -f ip.txt  -m portscan # 检测列表中开放的端口
+Quantum -f ip.txt  -m servicescan  # 检测列表中的服务
+Quantum -f ip.txt  -m brute -prefix huawei,h3c  -v # 根据内置模版生成更多口令并验证弱口令
+Quantum -f ip.txt  -m brute -v  -o result.xlsx # 检测列表中弱口令并验证结果保存为result.xlsx
 
 ```
    
