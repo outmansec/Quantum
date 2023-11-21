@@ -11,7 +11,6 @@ Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 
 ## 快速使用
 
-<img width="1580" alt="aa" src="https://github.com/outmansec/Gatling/assets/61048948/5416b114-6bc3-4ac5-8e06-a99d60b4266b">
 
 ```shell
 Quantum -t 192.168.0.1  -m brute -v -log # 检测目标弱口令并验证结果保存日志
