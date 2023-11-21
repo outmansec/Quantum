@@ -80,8 +80,16 @@ Quantum -f ip.txt  -m brute -v  -o result.xlsx # 检测列表中弱口令并验�
 |10|   6379   |  redis   | 是 | info信息 |
 |11|  27017   | mongodb  | 是 | 版本信息 |
 
+## 支持那些webfinger检测
+支持EHole规则
+https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.0**
+
+1. 优化https指纹识别;
+2. 新增webfinger、all模式;
+
 **0.6.0**
 
 1. 新增ms17010检测;
