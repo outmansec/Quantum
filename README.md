@@ -91,7 +91,7 @@ https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 ## 更新日志
 **0.7.0**
 
-1. 优化https指纹识别;
+1. 优化https协议识别;
 2. 新增webfinger、all模式;
 
 **0.6.0**
