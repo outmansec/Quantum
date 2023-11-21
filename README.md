@@ -90,6 +90,10 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.1**
+
+1. 优化指纹识别请求错误问题;
+
 **0.7.0**
 
 1. 优化https协议识别;
