@@ -1,5 +1,5 @@
 # Quantum
-Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、弱口令检测、web指纹识别.
+Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、弱口令检测、ms1710检测、web指纹识别.
 ## 免责声明
 该工具仅用于安全自查检测.
 
@@ -90,6 +90,10 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.2**
+
+1. 独立ms17010检查,防止触发告警;
+   
 **0.7.1**
 
 1. 优化指纹识别请求错误问题;
