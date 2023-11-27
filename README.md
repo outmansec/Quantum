@@ -42,7 +42,6 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 |    v    |                      验证弱口令检查结果                      |
 | prefix  |     设置一个关键词根据内置模版生成更多口令如huawei,h3c等     |
 |   np    |                          不检测存活                          |
-|   bt    |           设置登陆最大连接时间,超过则不在检测目标            |
 |   o    |           保存扫描结果默保存格式为xlsx           |
 |   debug    |           显示调试信息           |
 |   log    |           保存日志信息           |
@@ -90,6 +89,13 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.3**
+
+1. 修复windows下GC回收问题;
+2. 优化windows颜色显示问题;
+3. 优化debug选项;
+4. 删除bt参数;
+   
 **0.7.2**
 
 1. 独立ms17010检查,防止触发告警;
