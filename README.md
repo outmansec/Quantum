@@ -89,6 +89,10 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.4**
+
+1. 支持使用更低的系统版本;
+   
 **0.7.3**
 
 1. 修复windows下GC回收问题;
