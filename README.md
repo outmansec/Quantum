@@ -38,7 +38,7 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 |  pwdf   |                      设置弱口令检测列表                      |
 |  rate   |   设置IP并发数量默认为600;服务检测、弱口令检测模块为设置并发数/10    |
 |    c    |              设置弱口令检测单IP并发数量默认为4;              |
-| timeout |                         设置超时时间                         |
+| timeout |                         设置超时时间默认为3000                         |
 |    v    |                      验证弱口令检查结果                      |
 | prefix  |     设置一个关键词根据内置模版生成更多口令如huawei,h3c等     |
 |   np    |                          不检测存活                          |
@@ -92,6 +92,7 @@ https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 **0.7.5**
 
 1. 修复h3c无法爆破问题;
+2. 修改默认超时为3000毫秒;
 
 **0.7.4**
 
