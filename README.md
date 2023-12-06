@@ -89,6 +89,10 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.6**
+
+1. 修复多端口内存泄漏问题;
+   
 **0.7.5**
 
 1. 修复h3c无法爆破问题;
