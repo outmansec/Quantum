@@ -89,6 +89,12 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.7**
+
+1. 添加ssh登陆弱算法支持;
+2. 添加mongodb(3.6<版本)登陆支持;
+3. 修复mongodb登陆特殊字符问题;
+   
 **0.7.6**
 
 1. 修复多端口内存泄漏问题;
