@@ -92,8 +92,9 @@ https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 **0.7.7**
 
 1. 添加ssh登陆弱算法支持;
-2. 添加mongodb(3.6<版本)登陆支持;
-3. 修复mongodb登陆特殊字符问题;
+2. 添加ssh登陆弱密钥交换算法支持;
+3. 添加mongodb(3.6<版本)登陆支持;
+4. 修复mongodb登陆特殊字符问题;
    
 **0.7.6**
 
