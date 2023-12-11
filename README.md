@@ -44,7 +44,7 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 |   np    |                          不检测存活                          |
 |   o    |           保存扫描结果默保存格式为xlsx           |
 |   debug    |           显示调试信息           |
-|   log    |           保存日志信息           |
+|   log    |           保存日志支持text和json格式          |
 
 ## 支持那些服务检测
 
@@ -96,6 +96,10 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.8**
+
+1. 优化日志保存支持text和json格式;
+   
 **0.7.7**
 
 1. 添加ssh登陆弱算法支持;
