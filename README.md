@@ -96,6 +96,9 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.7.9**
+
+1. 修复postgres协议识别问题;
 **0.7.8**
 
 1. 优化日志保存支持text和json格式;
