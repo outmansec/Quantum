@@ -69,8 +69,9 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 | :------: | :------: | :------: | :------: | -------- |
 |1|    21    |   FTP    | 是 | 目录信息 |
 |2|    23    |  Telnet  | 是 | 登陆信息 |
-|3|   6379   |  redis   | 是 | info信息 |
-|4|  27017   | mongodb  | 是 | 版本信息 |
+|3|  4445   | smb  | 是 | 目录信息 |
+|4|   6379   |  redis   | 是 | info信息 |
+|5|  27017   | mongodb  | 是 | 版本信息 |
 
 ## 支持那些弱口令检测
 | 序号 | 默认端口 | 默认协议 | 是否支持验证 | 验证方法 |
@@ -96,6 +97,9 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.8.1**
+1. 添加smb未授权检测支持;
+
 **0.8.0**
 
 1. 添加端口扫描调试信息打印支持;
