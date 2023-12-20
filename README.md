@@ -96,6 +96,11 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.8.0**
+
+1. 添加端口扫描调试信息打印支持;
+2. 添加ms171010检测调试信息打印支持;
+3. 优化ms17010检测规则;
 
 **0.7.9**
 
