@@ -97,6 +97,9 @@ Quantum -f ip.txt  -m all -v  -o result.xlsx # 检测列表并验证登陆结果
 https://github.com/EdgeSecurityTeam/EHole/blob/main/finger.json
 
 ## 更新日志
+**0.8.2**
+2. 优化弱口令检测模块;
+   
 **0.8.1**
 1. 添加smb未授权检测支持;
 
