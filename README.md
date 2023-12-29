@@ -20,10 +20,6 @@
 ## 快速使用
 [](https://github.com/outmansec/Quantum/assets/61048948/7c380e4a-c751-4abe-9b82-33580dd0b094)
 
-
-  
-
-  
 ### 命令参数
 
 |  参数   |                             含义                             |
