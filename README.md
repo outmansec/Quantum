@@ -10,6 +10,7 @@ Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 本人拥有对此工具的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本工具进行任何攻击活动，不得以任何方式将其用于商业目的.   
 
 ## 快速使用
+![demo](https://github.com/outmansec/Quantum/assets/61048948/b2f3cb37-107d-4b24-b1f4-62ddcda71812)
 
 
 ```shell
