@@ -1,6 +1,9 @@
 # Quantum
 Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存活检测、端口扫描、服务检测、未授权检测、弱口令检测、ms1710检测、web指纹识别.
 
+## 快速使用
+[](https://github.com/outmansec/Quantum/assets/61048948/7c380e4a-c751-4abe-9b82-33580dd0b094)
+
 ## 软件优点
 
 - 支持检测并发,速度更快;
@@ -17,8 +20,7 @@ Quantum 是一款基于golang开发的综合漏洞扫描工具,目前支持存�
 
 本人拥有对此工具的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本工具进行任何攻击活动，不得以任何方式将其用于商业目的.  
 
-## 快速使用
-[](https://github.com/outmansec/Quantum/assets/61048948/7c380e4a-c751-4abe-9b82-33580dd0b094)
+
 
 
    
