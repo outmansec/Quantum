@@ -1,5 +1,4 @@
 # Quantum
-![Quantum](https://socialify.git.ci/outmansec/Quantum/image?description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 ![Quantum](https://socialify.git.ci/outmansec/Quantum/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fgo-8.svg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
 ## 免责声明
