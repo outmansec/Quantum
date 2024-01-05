@@ -23,25 +23,42 @@
 
 **命令参数**
 
-|  参数   |                             含义                             |
-| :-----: | :----------------------------------------------------------: |
-|    t    | 设置扫描目标格式如下:192.168.0.1;192.168.0.1,192.168.0.2;192.168.0.1-255;192.168.0.1-192.168.0.255;192.168.0.1/24; |
-|    f    | 如ip.txt,文本每行一个,格式参照-t |
-|    m    |     设置扫描模式目前支持alive、portscan、servicescan、brute、ms17010、webfinger、all    |
-|    p    |     设置扫描端口;不设置使用默认配置格式如下1-65535;22,23      |
-|  user   |  设置弱口令检测用户名;不设置使用默认配置如:admin、root,admin   |
-|   pwd   |  设置弱口令检测密码;不设置使用默认配置如:123456、123456,admin  |
-|  userf  |                    设置弱口令检测用户名列表如user.txt每行一个                   |
-|  pwdf   |                    设置弱口令检测列表如pwd.txt每行一个                      |
-|  rate   |   设置IP并发数量默认为600;服务检测、弱口令检测模块为设置并发数/10    |
-|    c    |              设置弱口令检测单IP并发数量默认为4;              |
-| timeout |                         设置超时时间默认为3000                         |
-|    v    |                      验证检测结果                      |
-| prefix  |     设置一个关键词根据内置模版生成更多口令如huawei,h3c等     |
-|   np    |                          不检测存活                          |
-|   o    |           保存扫描结果默保存格式为xlsx           |
-|   debug    |           显示调试信息           |
-|   log    |           保存日志如:-log text,支持text和json格式   |
+```
+Usage of ./Quantum:
+  -c int
+    	Set login concurrency nums e.g.: 4 (default 4)
+  -debug
+    	Show debug info
+  -f string
+    	set target file e.g.: ip.txt
+  -log string
+    	save log e.g.: text | json
+  -m string
+    	Set modes e.g.: alive
+  -np
+    	Not checking for alive.
+  -o string
+    	Save Output file e.g.: result.xlsx
+  -p string
+    	Set port e.g.: 22 | 22,80,3306 | 1-65535 (default "22,80,443,21,23,139,445,2121,2222,1433,1521,3306,3389,5432,6379,27017")
+  -prefix string
+    	Set password Prefixe.g.:admin
+  -pwd string
+    	Set password e.g.: 123456
+  -pwdf string
+    	Set password file e.g.: pass.txt
+  -rate int
+    	Set  Threads nums e.g.: 600 (default 600)
+  -t string
+    	Set target e.g.: 192.168.0.1 | 192.168.0.1,192.168.0.2 | 192.168.0.1-255 | 192.168.0.1-192.168.0.255 | 192.168.0.1/24
+  -timeout int
+    	Set  timeout (Millisecond) e.g.: 800 (default 3000)
+  -user string
+    	Set username e.g.:admin
+  -userf string
+    	Set username file e.g.: user.txt
+  -v	Set verify login.
+```
 
 **支持14种协议识别**
 
