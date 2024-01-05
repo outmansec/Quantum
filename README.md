@@ -65,7 +65,7 @@ Usage of ./Quantum:
 
 `FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`
   
-**支持那些未授权检测**
+**支持5种未授权检测**
 
 | 序号  | 默认协议 | 是否支持验证 | 验证方法 |
 | :------: | :------: | :------: | -------- |
@@ -75,7 +75,7 @@ Usage of ./Quantum:
 |4|   redis   | 是 | info信息 |
 |5|  mongodb  | 是 | 版本信息 |
 
-**支持那些弱口令检测**
+**支持11种弱口令检测**
 
 | 序号 | 默认协议 | 是否支持验证 | 验证方法 |
 | :------: | :------: | :------: | -------- |
