@@ -43,7 +43,8 @@
 |   debug    |           显示调试信息           |
 |   log    |           保存日志如:-log text,支持text和json格式   |
 
-**支持那些协议识别**
+**支持14种协议识别**
+
 `FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`
   
 **支持那些未授权检测**
