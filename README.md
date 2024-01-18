@@ -23,6 +23,9 @@
 ## 快速使用
 ![](https://github.com/outmansec/Quantum/assets/61048948/2b6a6506-c112-4aea-becf-e4504edfa8cf)
 
+![](https://github.com/outmansec/Quantum/assets/61048948/eb07aabe-087d-4908-b0f3-602176156e6f)
+
+
 
 **命令参数**
 
