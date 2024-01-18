@@ -21,10 +21,7 @@
 - 支持以表格形式汇总结果;
   
 ## 快速使用
-
-[Demo.webm](https://github.com/outmansec/Quantum/assets/61048948/93b4adfe-8cfc-4d14-90b2-cc5a20542582)
-
-![demo](https://github.com/outmansec/Quantum/assets/61048948/2b6a6506-c112-4aea-becf-e4504edfa8cf)
+![](https://github.com/outmansec/Quantum/assets/61048948/2b6a6506-c112-4aea-becf-e4504edfa8cf)
 
 
 **命令参数**
