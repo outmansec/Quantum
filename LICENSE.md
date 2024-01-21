@@ -4,7 +4,7 @@
 
 在使用本工具进行检测时，您应确保该行为符合当地的法律法规，并且已经取得了足够的授权。**请勿对非授权目标进行扫描。**
 
-如果您获得了本软件社区高级版等版本的 License，该 License 下的权益仅限您个人使用，**禁止以任何形式复制、分发、传播该 License。**
+如果您获得了本软件高级版等版本的 License，该 License 下的权益仅限您个人使用，**禁止以任何形式复制、分发、传播该 License。**
 
 禁止对本软件实施逆向工程、反编译、试图破译源代码等行为。
 
@@ -22,7 +22,7 @@ This tool is only for **legally authorized** enterprise security construction be
 
 When using this tool for testing, you should ensure that the behavior complies with local laws and regulations and that sufficient authorization has been obtained. **Do not scan unauthorized targets.**
 
-If you have obtained the License of the software Community Premium Edition and other versions, the rights and interests under the License are for your personal use only. **Reproduction, distribution and dissemination of the License in any form are prohibited.**
+If you have obtained the License of the software  Premium Edition and other versions, the rights and interests under the License are for your personal use only. **Reproduction, distribution and dissemination of the License in any form are prohibited.**
 
 It is forbidden to reverse engineer, decompile, and attempt to decipher the source code of the software.
 
