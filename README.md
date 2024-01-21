@@ -1,14 +1,6 @@
 # Quantum
 ![Quantum](https://socialify.git.ci/outmansec/Quantum/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fgo-8.svg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
-## 免责声明
-
-该工具仅限用于安全自查.
-
-由于传播、利用此工具所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，作者不为此承担任何责任.
-
-本人拥有对此工具的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本工具进行任何攻击活动，不得以任何方式将其用于商业目的.  
-
 ## 为什么选择它
 
 - 跨平台支持,你可以在任何环境中使用它;
