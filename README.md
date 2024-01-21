@@ -22,7 +22,7 @@
   
 ## 快速使用
 
-![](https://github.com/outmansec/Quantum/assets/61048948/f576ef7d-460b-4de5-9d4e-2bac0a1060d7)
+![](https://github.com/outmansec/Quantum/blob/master/images/demo.svg)
 
 **命令参数**
 
