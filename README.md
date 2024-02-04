@@ -4,7 +4,7 @@
 ## 为什么选择它
 
 - 跨平台支持,你可以在任何环境中使用它;
-- 目前支持存活检测(alive)、端口扫描(portscan)、基础协议识别(servicescan)、信息侦查(detect)、未授权检测(unauthorized)、弱口令检测(brute)、ms17010检测(ms17010)、web指纹识别(webfinger)、全部(all);
+- 目前支持存活检测(alive)、端口扫描(portscan)、基础协议识别(servicescan)、信息探测(detect)、未授权检测(unauthorized)、弱口令检测(brute)、ms17010检测(ms17010)、web指纹识别(webfinger)、全部(all);
 - 支持弱口令并发检测,提升扫描速度;
 - 支持基础协议识别,提高检测效率;
 - 引入了验证模式,结果更为准确;
@@ -58,13 +58,20 @@ Usage of ./Quantum:
 **支持14种协议识别**
 
 `FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`
-  
+
+**支持2种信息探测**
+
+| 序号  | 协议 | 信息 |
+| :------:  | :------: | -------- |
+|1|   t3   | 版本信息 |
+|2|   iiop  | 协议探测 |
+
 **支持5种未授权检测**
 
 | 序号  | 协议 | 是否支持验证 | 验证方法 |
 | :------: | :------: | :------: | -------- |
-|1|   FTP    | ✅ | 目录信息 |
-|2|     Telnet  | ✅ | 登陆信息 |
+|1|   ftp    | ✅ | 目录信息 |
+|2|     telnet  | ✅ | 登陆信息 |
 |3|   smb  | ✅ | 目录信息 |
 |4|   redis   | ✅ | info信息 |
 |5|  mongodb  | ✅ | 版本信息 |
@@ -73,13 +80,13 @@ Usage of ./Quantum:
 
 | 序号 | 协议 | 是否支持验证 | 验证方法 |
 | :------: | :------: | :------: | -------- |
-|1|    FTP    | ✅ | 目录信息 |
-|2|    SSH    | ✅ | 执行命令 |
+|1|    ftp    | ✅ | 目录信息 |
+|2|    ssh    | ✅ | 执行命令 |
 |3|    Telnet  | ✅ | 登陆信息 |
 |4|    smb    | ✅ | 目录信息 |
-|5|    Mssql   | ✅ | 版本信息 |
-|6|   Oracle  | ✅ | 版本信息 |
-|7|   Mysql   | ✅ | 版本信息 |
+|5|    mssql   | ✅ | 版本信息 |
+|6|   oracle  | ✅ | 版本信息 |
+|7|   mysql   | ✅ | 版本信息 |
 |8|   rdp    | ❌ | 不支持 |
 |9|   postgres | ✅ | 版本信息 |
 |10|   redis   | ✅ | info信息 |
