@@ -57,7 +57,7 @@ Usage of ./Quantum:
 
 **支持14种协议识别**
 
-`FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`
+`FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`,`Memcached`
 
 **支持2种信息探测**
 
@@ -75,6 +75,7 @@ Usage of ./Quantum:
 |3|   smb  | ✅ | 目录信息 |
 |4|   redis   | ✅ | info信息 |
 |5|  mongodb  | ✅ | 版本信息 |
+|6|  memcached  | ✅ | stats信息 |
 
 **支持11种弱口令检测**
 
