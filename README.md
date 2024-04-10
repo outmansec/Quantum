@@ -4,9 +4,8 @@
 ## 为什么选择它
 
 - 跨平台支持,你可以在任何环境中使用它;
-- 目前支持存活检测(alive)、端口扫描(portscan)、基础协议识别(servicescan)、信息探测(detect)、未授权检测(unauthorized)、弱口令检测(brute)、ms17010检测(ms17010)、web指纹识别(webfinger)、全部(all);
-- 支持弱口令并发检测,提升扫描速度;
-- 支持基础协议识别,提高检测效率;
+- 目前支持9种扫描模式、17种协议识别、2种信息探测、8种未授权检测、11种弱口令检测、内置EHole指纹识别规则;
+- 支持基础协议识别和弱口令检测并发,提升检测效率;
 - 引入了验证模式,结果更为准确;
 - 引入了debug模式,调试更加方便;
 - 可以使用prefix设置关键字根据内置模版生成弱口令;
@@ -54,6 +53,10 @@ Usage of ./Quantum:
     	Set username file e.g.: user.txt
   -v	Set verify login.
 ```
+
+**支持9种扫描模式**
+
+存活检测`alive`、端口扫描`portscan`、基础协议识别`servicescan`、信息探测`detect`、未授权检测`unauthorized`、弱口令检测`brute`、ms17010检测`ms17010`、web指纹识别`webfinger`、全部`all`
 
 **支持17种协议识别**
 
