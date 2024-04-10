@@ -56,7 +56,7 @@ Usage of ./Quantum:
 
 **支持9种扫描模式**
 
-存活检测`alive`、端口扫描`portscan`、基础协议识别`servicescan`、信息探测`detect`、未授权检测`unauthorized`、弱口令检测`brute`、ms17010检测`ms17010`、web指纹识别`webfinger`、全部`all`
+`alive`(存活检测)、`portscan`(端口扫描)、`servicescan`(基础协议识别)、`detect`(信息探测)、`unauthorized`(未授权检测)、`brute`(弱口令检测)、`ms17010`(ms17010检测)、`webfinger`(web指纹识别)、`all`(全部)
 
 **支持17种协议识别**
 
