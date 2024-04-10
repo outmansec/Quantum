@@ -55,7 +55,7 @@ Usage of ./Quantum:
   -v	Set verify login.
 ```
 
-**支持16种协议识别**
+**支持17种协议识别**
 
 `FTP`, `SSH`, `Telnet`, `NetBIOS`, `HTTP`, `HTTPS`, `SMB`, `MSSQL`, `Oracle`, `MySQL`, `RDP`, `PostgreSQL`, `Redis`, `MongoDB`,`Memcached`,`Zookeeper`,`Jdwp`
 
