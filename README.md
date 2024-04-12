@@ -102,6 +102,10 @@ Usage of ./Quantum:
 
 内置EHole规则
 
+## Star History
 
+<a href="https://github.com/outmansec/Quantum/stargazers">
+    <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=outmansec/Quantum&type=Date">
+</a> 
 
 
